@@ -12,7 +12,8 @@ Overall we are not trying to be prescriptive in how you go about completing the 
 
 1. The table should include the following:
     - Columns for: Id, Name, Release Date, Opening Revenue
-    - The table should be sortable by Release Date and Opening Revenue
+    - Opening Revenue should be formatted as currency
+    - Release Date should be formated as MM DD, YYYY
 2. Display the table in a Lightning App page named "Movies"
 
 ## Submission Instructions
