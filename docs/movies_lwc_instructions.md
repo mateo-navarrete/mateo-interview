@@ -13,7 +13,7 @@ Overall we are not trying to be prescriptive in how you go about completing the 
 1. The table should include the following:
     - Columns for: Id, Name, Release Date, Opening Revenue
     - The table should be sortable by Release Date and Opening Revenue
-2. Display the table in a Custom Tab named "Movies"
+2. Display the table in a Lightning App page named "Movies"
 
 ## Submission Instructions
 Once you're done with the assignment, make sure that all of your work is pulled down from your org and included in your forked repository. It should be organized such that we can run this command to successfuly deploy and test your code:
