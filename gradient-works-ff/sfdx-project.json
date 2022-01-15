@@ -5,7 +5,7 @@
       "default": true
     }
   ],
-  "name": "gw",
+  "name": "gradient-works-ff",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "52.0"
