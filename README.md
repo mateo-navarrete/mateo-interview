@@ -11,4 +11,4 @@
     - orgUrl should be replaced with the url of your Salesforce Developer Enviornment (i.e. - https://gradientworks5-dev-ed.my.salesforce.com)
 2. [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo#prerequisites) and clone the following repo: https://github.com/Gradient-Works/interview
 
-You should be ready to start working through the interview prompt now. You can find instructions for the prompt we've asked you to work on in the docs directory
+You should be ready to start working through the [interview promopt](https://github.com/Gradient-Works/interview/blob/main/docs/movies_lwc_instructions.md) now.
