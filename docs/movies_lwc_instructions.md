@@ -8,13 +8,12 @@ Information about the API can be found [here](https://github.com/Gradient-Works/
 We recommend creating your Apex classes and lwc components locally and deploying them to your Salesforce Developer Environment using sfdx mdapi commands.
 
 ## Some Implementation Details
-Overall we are not trying to be prescriptive in how you go about completing the task. We have just a few things we'd like to make sure you include:
-
-1. The table should include the following:
+1. Please use Apex to interact with the API.
+2. Using `lightning-datatable`, build a component containing the following:
     - Columns for: Id, Name, Release Date, Opening Revenue
     - Opening Revenue should be formatted as currency
-    - Release Date should be formated as MM DD, YYYY
-2. Display the table in a Lightning App page named "Movies"
+    - Release Date should be formatted as MM DD, YYYY
+3. Display the table in a Lightning App page named "Movies"
 
 ## Submission Instructions
 Once you're done with the assignment, make sure that all of your work is pulled down from your org and included in your forked repository. It should be organized such that we can run this command to successfuly deploy and test your code:
