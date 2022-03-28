@@ -1,6 +1,6 @@
 {
-  "orgName": "chloecoon company",
-  "edition": "Developer",
+  "orgName": "Interview Company",
+  "edition": "Enterprise",
   "features": ["EnableSetPasswordInApi"],
   "settings": {
     "lightningExperienceSettings": {
