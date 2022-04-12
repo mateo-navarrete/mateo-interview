@@ -6,5 +6,12 @@
  * @last modified by  : mateo navarrete
 **/
 public class FastAndFuriousController {
-    
+
+    private static HttpRequest initCallout(){
+        HttpRequest req = new HttpRequest();
+        req.setMethod('GET');
+        req.setEndpoint('https://api.gradientworks.dev/ff/movies');
+        return req;
+    }
+
 }
