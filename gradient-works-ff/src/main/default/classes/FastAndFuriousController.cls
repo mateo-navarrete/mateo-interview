@@ -1,7 +1,7 @@
 /**
- * @description       : 
+ * @description       : callout service for retrieving data from the ff api
  * @author            : mateo navarrete
- * @group             : 
+ * @group             : interviewees
  * @last modified on  : 04-12-2022
  * @last modified by  : mateo navarrete
 **/
