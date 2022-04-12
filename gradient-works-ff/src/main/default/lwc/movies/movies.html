@@ -1,3 +1,15 @@
+<!--
+  @description       : renders results from FastAndFuriousApi
+  @author            : mateo navarrete
+  @group             : interviewees
+  @last modified on  : 04-12-2022
+  @last modified by  : mateo navarrete
+-->
 <template>
-    
+    <lightning-card title="Movies">
+        <lightning-datatable key-field="id"
+                             data={data}
+                             columns={columns}>
+        </lightning-datatable>
+    </lightning-card>
 </template>
