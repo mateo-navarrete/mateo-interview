@@ -1,11 +1,11 @@
 # Build a Lightning Component to display the Fast and Furious movies
 
 ## Prompt
-Using the provided Fast and Furious API, get the list of movies and display them in a datatable
+Using the Fast and Furious API, get the list of movies and display them in a datatable.
+
+Please use the provided Apex classes and lwc for your work and make sure to include tests for your Apex classes.
 
 Information about the API can be found [here](https://github.com/Gradient-Works/interview/blob/main/docs/ff_api.md)
-
-We recommend creating your Apex classes and lwc components locally and deploying them to your Salesforce Developer Environment using sfdx mdapi commands.
 
 ## Some Implementation Details
 1. Please use Apex to interact with the API.
