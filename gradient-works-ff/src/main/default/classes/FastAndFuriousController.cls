@@ -7,10 +7,13 @@
 **/
 public class FastAndFuriousController {
 
+    private static string suffix = '';
+
+
     private static HttpRequest initCallout(){
         HttpRequest req = new HttpRequest();
         req.setMethod('GET');
-        req.setEndpoint('https://api.gradientworks.dev/ff/movies');
+        req.setEndpoint('https://api.gradientworks.dev/ff/' + suffix);
         return req;
     }
 
@@ -22,8 +25,9 @@ public class FastAndFuriousController {
     }
 
     @AuraEnabled(cacheable=true)
-    public static Map<string, object> getMappedResponse(){
+    public static Map<string, object> getMappedResponse(string destination){
         Map<string, object> resMap = new Map<string, object>();
+        suffix = destination;
 
         try {
             HttpResponse res = handleCallout();

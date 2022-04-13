@@ -21,7 +21,7 @@ public class FastAndFuriousClient {
     @AuraEnabled(cacheable=true)
     public static List<Map<string, object>> getMovies(){
         try {
-            response = FastAndFuriousController.getMappedResponse();
+            response = FastAndFuriousController.getMappedResponse('movies');
             results = formatResponse();
         } catch (Exception e) {
             throw new AuraHandledException(e.getMessage());
