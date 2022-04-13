@@ -1,7 +1,7 @@
 {
   "packageDirectories": [
     {
-      "path": "src",
+      "path": "manifest/package.xml",
       "default": true
     }
   ],
